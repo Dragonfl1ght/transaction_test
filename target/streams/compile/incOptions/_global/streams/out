@@ -1,0 +1,19 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice\target\scala-3.1.3\classes.bak
+[debug] About to delete class files:
+[debug] 	MainApp$$anon$1.class
+[debug] 	MainApp$.class
+[debug] 	MainApp.class
+[debug] 	MainApp$$anon$1.tasty
+[debug] 	MainApp$.tasty
+[debug] 	MainApp.tasty
+[debug] We backup class files:
+[debug] 	MainApp$$anon$1.class
+[debug] 	MainApp$.class
+[debug] 	MainApp.class
+[debug] 	MainApp$$anon$1.tasty
+[debug] 	MainApp$.tasty
+[debug] 	MainApp.tasty
+[debug] Rolling back changes to class files.
+[debug] Removing generated classes:
+[debug] Restoring class files: 
+[debug] Removing the temporary directory used for backing up class files: C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice\target\scala-3.1.3\classes.bak

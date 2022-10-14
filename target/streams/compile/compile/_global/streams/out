@@ -1,0 +1,12 @@
+[debug] Acquiring lock on file C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice\project\target\.sbt-compilation-infos\zio-quickstart-restful-webservice-compile\.sbt-idea-lock ...
+[error] -- [E008] Not Found Error: C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice\src\main\scala\dev\zio\quickstart\transaction_check\TransactionCheckApp.scala:37:22 
+[error] 37 |      TransactionRepo.trans.map(response => Response.json(response.toJson))
+[error]    |      ^^^^^^^^^^^^^^^^^^^^^
+[error]    |value trans is not a member of object dev.zio.quickstart.transaction_check.TransactionRepo, but could be made available as an extension method.
+[error]    |
+[error]    |The following import might make progress towards fixing the problem:
+[error]    |
+[error]    |  import io.getquill.autoQuote
+[error]    |
+[error] one error found
+[debug] Releasing lock on file C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice\project\target\.sbt-compilation-infos\zio-quickstart-restful-webservice-compile\.sbt-idea-lock.

@@ -1,0 +1,5 @@
+[debug] > Exec(POST http://localhost:8080/greet?name=:name, None, None)
+[error] Expected '/'
+[error] POST http://localhost:8080/greet?name=:name
+[error]      ^
+[debug] > Exec(idea-shell, None, None)

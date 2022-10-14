@@ -1,0 +1,17 @@
+[debug] > Exec(package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 6 Scala sources to C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice\target\scala-3.1.3\classes ...
+[error] -- [E008] Not Found Error: C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice\src\main\scala\dev\zio\quickstart\transaction_check\TransactionCheckApp.scala:37:22 
+[error] 37 |      TransactionRepo.trans.map(response => Response.json(response.toJson))
+[error]    |      ^^^^^^^^^^^^^^^^^^^^^
+[error]    |value trans is not a member of object dev.zio.quickstart.transaction_check.TransactionRepo, but could be made available as an extension method.
+[error]    |
+[error]    |The following import might make progress towards fixing the problem:
+[error]    |
+[error]    |  import io.getquill.autoQuote
+[error]    |
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 9 s, completed 14 окт. 2022 г., 17:27:30
+[debug] > Exec(idea-shell, None, None)

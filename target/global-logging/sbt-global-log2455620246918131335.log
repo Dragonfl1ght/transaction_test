@@ -1,0 +1,8 @@
+[debug] > Exec(rub, None, None)
+[error] Not a valid command: rub (similar: reboot)
+[error] Not a valid project ID: rub
+[error] Expected ':'
+[error] Not a valid key: rub (similar: run, turbo, runner)
+[error] rub
+[error]    ^
+[debug] > Exec(idea-shell, None, None)

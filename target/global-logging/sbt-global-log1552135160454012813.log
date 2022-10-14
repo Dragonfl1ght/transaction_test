@@ -1,0 +1,142 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\drago\AppData\Local\Temp\idea6.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\drago\AppData\Local\Temp\idea6.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.7.1 (Oracle Corporation Java 18.0.2)
+[debug]       Load.loadUnit: plugins took 114.2866ms
+[debug]       Load.loadUnit: defsScala took 0.356ms
+[debug] [Loading] Scanning directory C:\Users\drago\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\drago\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 21.9714 ms
+[debug]           Load.resolveProject(global-plugins) took 51.8633ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\drago\.sbt\1.0\plugins, plugins: List(<none>))) took 106.8073ms
+[debug] [Loading] Done in C:\Users\drago\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 138.8221ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2955ms
+[debug]     Load.loadUnit(file:/C:/Users/drago/.sbt/1.0/plugins/, ...) took 265.7495ms
+[debug]   Load.apply: load took 514.5664ms
+[debug]   Load.apply: resolveProjects took 9.0459ms
+[debug]   Load.apply: finalTransforms took 85.786ms
+[debug]   Load.apply: config.delegates took 10.8372ms
+[debug]   Load.apply: Def.make(settings)... took 455.1285ms
+[debug]   Load.apply: structureIndex took 123.5751ms
+[debug]   Load.apply: mkStreams took 1.6913ms
+[info] loading global plugins from C:\Users\drago\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 2612.0522ms
+[debug]           Load.loadUnit: plugins took 33.4602ms
+[debug]           Load.loadUnit: defsScala took 0.0074ms
+[debug] [Loading] Scanning directory C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice\project
+[debug]             Load.loadUnit: mkEval took 7.5294ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.0653 ms
+[info] loading settings for project zio-quickstart-restful-webservice-build from idea6.sbt ...
+[debug]               Load.resolveProject(zio-quickstart-restful-webservice-build) took 4.1056ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id zio-quickstart-restful-webservice-build, base: C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice\project, plugins: List(<none>))) took 8.0372ms
+[debug] [Loading] Done in C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice\project, returning: (zio-quickstart-restful-webservice-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 194.7124ms
+[debug]           Load.loadUnit: cleanEvalClasses took 8.3833ms
+[debug]         Load.loadUnit(file:/C:/Users/drago/OneDrive/Desktop/myrep/zio-quickstart-restful-webservice/project/, ...) took 238.0997ms
+[debug]       Load.apply: load took 240.3533ms
+[debug]       Load.apply: resolveProjects took 0.1219ms
+[debug]       Load.apply: finalTransforms took 13.2518ms
+[debug]       Load.apply: config.delegates took 0.4532ms
+[debug]       Load.apply: Def.make(settings)... took 91.2854ms
+[debug]       Load.apply: structureIndex took 38.0373ms
+[debug]       Load.apply: mkStreams took 0.0021ms
+[info] loading project definition from C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 759.2ms
+[debug]     Load.loadUnit: defsScala took 0.0048ms
+[debug] [Loading] Scanning directory C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice
+[debug]       Load.loadUnit: mkEval took 0.3221ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 3.1945 ms
+[info] loading settings for project zio-quickstart-restful-webservice from build.sbt ...
+[debug]         Load.resolveProject(zio-quickstart-restful-webservice) took 33.6238ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id zio-quickstart-restful-webservice, base: C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice, plugins: List(<none>))) took 37.8883ms
+[debug] [Loading] Done in C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice, returning: (zio-quickstart-restful-webservice)
+[debug]     Load.loadUnit: loadedProjectsRaw took 118.0076ms
+[debug]     Load.loadUnit: cleanEvalClasses took 21.4749ms
+[debug]   Load.loadUnit(file:/C:/Users/drago/OneDrive/Desktop/myrep/zio-quickstart-restful-webservice/, ...) took 899.9718ms
+[debug] Load.apply: load took 901.8988ms
+[debug] Load.apply: resolveProjects took 0.1613ms
+[debug] Load.apply: finalTransforms took 27.0483ms
+[debug] Load.apply: config.delegates took 0.2828ms
+[debug] Load.apply: Def.make(settings)... took 68.7599ms
+[debug] Load.apply: structureIndex took 30.9271ms
+[debug] Load.apply: mkStreams took 0.0025ms
+[info] set current project to zio-quickstart-restful-webservice (in build file:/C:/Users/drago/OneDrive/Desktop/myrep/zio-quickstart-restful-webservice/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 49456 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 49456, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to zio-quickstart-restful-webservice (in build file:/C:/Users/drago/OneDrive/Desktop/myrep/zio-quickstart-restful-webservice/)
+[debug] > Exec(idea-shell, None, None)

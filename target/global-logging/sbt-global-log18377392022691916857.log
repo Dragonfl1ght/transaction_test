@@ -1,0 +1,35 @@
+[debug] > Exec(package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice\target\scala-3.1.3\classes ...
+[info] -- Info: C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice\src\main\scala\dev\zio\quickstart\users\PersistentUserRepo.scala:22:19 
+[info] 22 |      _ <- ctx.run {
+[info]    |           ^
+[info]    |Quill Query: INSERT INTO "UserTable" ("uuid","name","age") VALUES ($1, $2, $3)
+[info] 23 |        quote {
+[info] 24 |          query[UserTable].insertValue {
+[info] 25 |            lift(UserTable(id, user.name, user.age))
+[info] 26 |          }
+[info] 27 |        }
+[info] 28 |      }
+[info] -- Info: C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice\src\main\scala\dev\zio\quickstart\users\PersistentUserRepo.scala:33:12 
+[info] 33 |    ctx.run {
+[info]    |    ^
+[info]    |Quill Query: SELECT p."name" AS name, p."age" AS age FROM "UserTable" p WHERE p."uuid" = $1
+[info] 34 |      quote {
+[info] 35 |        query[UserTable]
+[info] 36 |          .filter(p => p.uuid == lift(UUID.fromString(id)))
+[info] 37 |          .map(u => User(u.name, u.age))
+[info] 38 |      }
+[info] 39 |    }.provide(ZLayer.succeed(ds)).map(_.headOption)
+[info] -- Info: C:\Users\drago\OneDrive\Desktop\myrep\zio-quickstart-restful-webservice\src\main\scala\dev\zio\quickstart\users\PersistentUserRepo.scala:42:12 
+[info] 42 |    ctx.run {
+[info]    |    ^
+[info]    | Quill Query: SELECT u."name" AS name, u."age" AS age FROM "UserTable" u
+[info] 43 |      quote {
+[info] 44 |        query[UserTable].map(u => User(u.name, u.age))
+[info] 45 |      }
+[info] 46 |    }.provide(ZLayer.succeed(ds))
+[info] done compiling
+[success] Total time: 14 s, completed 7 окт. 2022 г., 21:41:24
+[debug] > Exec(idea-shell, None, None)

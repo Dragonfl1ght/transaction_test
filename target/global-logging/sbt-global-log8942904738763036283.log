@@ -1,0 +1,5 @@
+[debug] > Exec(GET http://localhost:8080/greet, None, None)
+[error] Expected '/'
+[error] GET http://localhost:8080/greet
+[error]     ^
+[debug] > Exec(idea-shell, None, None)
